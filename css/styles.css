@@ -49,11 +49,39 @@ color: #f9faf8;
 .content{
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
 
-.content-left,.content-right{
+.content-right{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 230px;
+}
+
+img{
+    margin-bottom: 50px;
+}
+
+.p-first{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.sign-up-first-section{
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 1px #3882f6;
+    border-radius: 10px;
 }
